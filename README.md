@@ -1,59 +1,23 @@
-
-
-<h1 align="center">mmcv object detection tool</h1>
-<p align="center">
-    <strong>English</strong> | <a href="README_ZH.md">简体中文</a>
-</p>
-
-
-## Table of Contents
-
-- [Repository Introduction](#project-introduction)
-- [Prerequisites](#prerequisites)
-- [Image Description](#image-description)
-- [Get Help](#get-help)
-- [How to Contribute](#how-to-contribute)
-
-## Project Introduction
+# mmcv-2.1.0-kunpeng
 
 
 
-[mmcv](https://github.com/open-mmlab/mmcv) is an open-source toolkit launched by PaddlePaddle for critical tasks in voice and audio. This product provides an out-of-the-box mmcv based on the Huawei Cloud EulerOS 2.0 64-bit system of Kunpeng servers.
-
-## Core Features
-
-- **Lightweight Web Interaction Interface:** Built on Streamlit, it provides a simple and easy-to-use visual interface where users can directly upload images and view detection results without the need for programming skills
-- **High performance object detection capability:** Integrated MMDetection open-source framework, using CenterNet (ResNet-18) model, with efficient and accurate object detection capability, suitable for real-time detection scenarios
-- **Flexible parameter configuration: **Support custom score threshold, users can adjust detection accuracy and recall rate according to actual needs, and improve the practicality of detection results
-
-The open-source image product [mmcv object detection tool](https://marketplace.huaweicloud.com/intl/hidden/contents/2c091a70-003f-41d2-8df8-02d13fe7a367) provided by this project has pre-installed the the 2.1.0 version of mmcv and its related runtime environment, and provides deployment templates. Come and refer to the usage guide to easily start an efficient "out-of-the-box" experience!
-
-> **System requirements are as follows:**
->
-> - CPU: 2vCPUs or higher
-> - RAM: 4GB or larger
-> - Disk: At least 40GB
-
-## Prerequisites
+## 规格说明
 
 
 
-[Register a Huawei account and activate Huawei Cloud](https://support.huaweicloud.com/usermanual-account/account_id_001.html)
+- 镜像商品：[mmcv目标检测工具](https://marketplace.huaweicloud.com/hidden/contents/b5a020c2-21f1-4974-894e-d4d2bd6e37a9#productid=OFFI1137282172677468160)
+- 镜像规格：mmcv-2.1.0-kunpeng
+- 预置环境：mmcv-2.1.0
+- 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html)
+- CPU架构：ARM
+- 操作系统：Huawei Cloud EulerOS 2.0 64bit
+- 资源编排服务（RFS）：ECS + EIP + VPC
 
-## Image Description
+## 使用说明
 
 
 
-| Image Specification                                          | Feature Description                                          | Remarks |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------- |
-| [mmcv-2.1.0-kunpeng](https://github.com/HuaweiCloudDeveloper/mmcv-image/tree/mmcv-2.1.0-kunpeng) | Installed and deployed based on Kunpeng servers + Huawei Cloud EulerOS 2.0 64-bit |         |
+- 华为云云商店：[mmcv目标检测工具使用指南](./docs/usage.md)
 
-## Get Help
-
-- For more questions, you can contact us through [issues](https://github.com/HuaweiCloudDeveloper/mmcv-image/issues) or the service support of the specified product in the Huawei Cloud Marketplace.
-- For other open-source images, please refer to [open-source-image-repos](https://github.com/HuaweiCloudDeveloper/open-source-image-repos).
-
-## How to Contribute
-
-- Fork this repository and submit a merge request.
-- Synchronously update README.md based on your open-source image information.
+更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/mmcv-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
