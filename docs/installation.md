@@ -33,23 +33,7 @@ apt-get -y -o Dpkg::Options::="--force-confold" dist-upgrade
 
 
 
-## ‌二、安装docker
-
-
-
-#### EulerOS2.0
-
-
-
-参考：[安装Docker](https://support.huaweicloud.com/bestpractice-hce/hce_bp_0002.html)
-
-#### Ubuntu 24.04
-
-
-
-参考：[安装Docker](https://www.runoob.com/docker/ubuntu-docker-install.html)
-
-## **三、安装conda**
+## **二、安装conda**
 
 
 
@@ -77,7 +61,7 @@ conda create -n mmdetection python=3.9
 
 
 
-## **四、源码下载**
+## **三、源码下载**
 
 ### **1.安装相应的依赖**
 
@@ -132,7 +116,7 @@ wget https://download.openmmlab.com/mmdetection/v2.0/centernet/centernet_resnet1
 
  
 
-## **五、启动项目**
+## **四、启动项目**
 
 ### **1.修改代码**
 
